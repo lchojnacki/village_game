@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheGame.Armory">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="TheGame.Building" FixedToPoint="true">
+      <Path>
+        <Point X="7.094" Y="0.5" />
+        <Point X="7.094" Y="0.125" />
+        <Point X="1.875" Y="0.125" />
+        <Point X="1.875" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Armory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Bakery">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bakery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Bread">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Breeder">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Breeder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Building">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Building.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Castle">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="TheGame.Building" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="0.5" />
+        <Point X="7.5" Y="0.125" />
+        <Point X="4.062" Y="0.125" />
+        <Point X="4.062" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Castle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Farmer">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAABAAAA=</HashCode>
+      <FileName>Farmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.FarmerStrategyFruits" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>FarmerStrategyFruits.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheGame.FarmerStrategyGrain" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>FarmerStrategyGrain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheGame.Food">
+    <Position X="1.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Food.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Fruit">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.FullContainerException">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FullContainerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Granary">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="TheGame.Building" FixedToPoint="true">
+      <Path>
+        <Point X="7.906" Y="0.5" />
+        <Point X="7.906" Y="0.125" />
+        <Point X="11" Y="0.125" />
+        <Point X="11" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAABAAAAAAAAI=</HashCode>
+      <FileName>Granary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.House">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="TheGame.Building" FixedToPoint="true">
+      <Path>
+        <Point X="8.109" Y="0.5" />
+        <Point X="8.109" Y="0.125" />
+        <Point X="13" Y="0.125" />
+        <Point X="13" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Human">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAABAAAA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.NotEnoughResourcesException">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NotEnoughResourcesException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Priest">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <InheritanceLine Type="TheGame.Human" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="4.562" />
+        <Point X="4.25" Y="4.594" />
+        <Point X="3.25" Y="4.594" />
+        <Point X="3.25" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Priest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Program">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAABAAAEAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Soldier">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Temple">
+    <Position X="5" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Temple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Village">
+    <Position X="18.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACiAIAAYAgAgAAABIAEAAgAAAAAAgEAAEAAAAAEAg=</HashCode>
+      <FileName>Village.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TheGame.FarmerStrategy">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>FarmerStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
